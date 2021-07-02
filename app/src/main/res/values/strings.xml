@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Lexi</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Perfil</string>
+    <string name="perfil">Perfil</string>
+    <string name="nombre">Nombre</string>
+    <string name="inglenivel">Inglés Nivel 10</string>
+    <string name="francesnivel">Francés Nivel 1</string>
+    <string name="inglebarra">Inglés 58%</string>
+    <string name="francesbarra">Francés 10%</string>
+    <string name="progreso">Progreso</string>
+    <string name="logros">Logros</string>
+    <string name="editarper">Editar Perfil</string>
+    <string name="cerrarses">Cerrar Sesión</string>
+    <string name="compartir">Compartir</string>
+    <string name="miscursos">Mis cursos</string>
+    <string name="cursonombre">Cursos de Nombre</string>
+    <string name="n1">Nivel 1</string>
+    <string name="n10">Nivel 10</string>
+    <string name="ing">Inglés</string>
+    <string name="fr">Francés</string>
+    <string name="prog1">Progreso 10%</string>
+    <string name="prog2">Progreso 58%</string>
+    <string name="continuar">Continuar</string>
+    <string name="titulo">Título</string>
+    <string name="pregunta">Pregunta</string>
+    <string name="tema">Elige un tema</string>
+    <string name="negocio">Negocios</string>
+    <string name="pelise">Películas/Series</string>
+    <string name="deporte">Deportes</string>
+    <string name="musica">Música</string>
+    <string name="gastro">Gastronomía</string>
+    <string name="histo">Historia</string>
+    <string name="moda">Moda</string>
+    <string name="tradi">Tradiciones</string>
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id odio at nulla sollicitudin interdum. Donec ornare, urna sit amet porta dictum, est tortor efficitur orci, nec ullamcorper nisl ante eget mi. Pellentesque finibus velit id nulla fermentum aliquet. Nam nec dolor sit amet magna facilisis lacinia. Sed in venenatis massa, eu viverra tortor. Sed ullamcorper lacinia mi in rhoncus. Vestibulum sodales elit id neque mattis, ac laoreet neque congue. Nunc ullamcorper nibh non justo scelerisque, in fringilla orci rutrum. Cras sit amet rhoncus justo. Nunc non dignissim ex, ac imperdiet lectus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc fringilla dignissim erat vitae sagittis. Integer aliquet ligula non ligula venenatis, eget condimentum felis ultrices. Etiam sed consectetur neque.</string>
+
+</resources>
