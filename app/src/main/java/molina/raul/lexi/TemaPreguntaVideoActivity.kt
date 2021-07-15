@@ -1,5 +1,6 @@
 package molina.raul.lexi
 
+import android.content.Intent
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -8,6 +9,8 @@ import android.view.WindowManager
 import android.widget.MediaController
 import android.widget.Toast
 import android.widget.VideoView
+import kotlinx.android.synthetic.main.activity_tema_pregunta_video.*
+import kotlinx.android.synthetic.main.activity_temas_preguntas.*
 
 class TemaPreguntaVideoActivity : AppCompatActivity() {
     // declaring a null variable for VideoView
@@ -27,7 +30,12 @@ class TemaPreguntaVideoActivity : AppCompatActivity() {
         //getWindow().addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN);
         getWindow().clearFlags(WindowManager.LayoutParams.FLAG_FORCE_NOT_FULLSCREEN);
 
-        
+        buttontextopregunta.setOnClickListener {
+            var intent: Intent = Intent(this, TemaPreguntaLecturaActivity::class.java)
+            startActivity(intent)
+        }
+
+
         simpleVideoView = findViewById<View>(R.id.mVideoView) as VideoView
 
         if (mediaControls == null) {
