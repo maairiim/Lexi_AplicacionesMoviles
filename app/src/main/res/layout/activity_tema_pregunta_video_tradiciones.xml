@@ -48,11 +48,11 @@
             <TextView
                 android:layout_marginStart="30dp"
                 android:layout_marginTop="30dp"
-                android:text="@string/negocio"
+                android:text="@string/tradi"
                 android:textSize="30dp" />
 
             <ImageView
-                android:id="@+id/buttontextopregunta"
+                android:id="@+id/tradicionesbuttontextopregunta"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_marginStart="100dp"

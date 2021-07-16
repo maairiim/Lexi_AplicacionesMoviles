@@ -40,11 +40,12 @@
         android:textStyle="bold"
         android:layout_marginStart="30dp"
         android:layout_marginTop="20dp"/>
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:text="@string/textoneg"
+        android:text="@string/textodep"
         android:textSize="20dp"
         android:background="@drawable/roundshadow"
         android:elevation="10dp"

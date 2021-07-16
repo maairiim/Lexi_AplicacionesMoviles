@@ -44,7 +44,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:text="@string/textoneg"
+        android:text="@string/textohis"
         android:textSize="20dp"
         android:background="@drawable/roundshadow"
         android:elevation="10dp"

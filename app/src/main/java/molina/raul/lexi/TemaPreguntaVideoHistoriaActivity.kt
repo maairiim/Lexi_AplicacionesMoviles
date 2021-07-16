@@ -7,31 +7,29 @@ import android.os.Bundle
 import android.view.View
 import android.view.WindowManager
 import android.widget.MediaController
-import android.widget.Toast
 import android.widget.VideoView
 import kotlinx.android.synthetic.main.activity_tema_pregunta_video.*
-import kotlinx.android.synthetic.main.activity_temas_preguntas.*
+import kotlinx.android.synthetic.main.activity_tema_pregunta_video.buttontextopregunta
+import kotlinx.android.synthetic.main.activity_tema_pregunta_video_historia.*
 
-class TemaPreguntaVideoActivity : AppCompatActivity() {
+class TemaPreguntaVideoHistoriaActivity : AppCompatActivity() {
     // declaring a null variable for VideoView
     var simpleVideoView: VideoView? = null
     // declaring a null variable for MediaController
     var mediaControls: MediaController? = null
 
     var url_video = "https://www.youtube.com/watch?v=cw4eESMUMmI";
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_tema_pregunta_video)
-
+        setContentView(R.layout.activity_tema_pregunta_video_historia)
 
         getSupportActionBar()?.hide();
         getActionBar()?.hide();
         //getWindow().addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN);
         getWindow().clearFlags(WindowManager.LayoutParams.FLAG_FORCE_NOT_FULLSCREEN);
 
-        buttontextopregunta.setOnClickListener {
-            var intent: Intent = Intent(this, TemaPreguntaLecturaActivity::class.java)
+        historiabuttontextopregunta.setOnClickListener {
+            var intent: Intent = Intent(this, TemaPreguntaLecturaHistoriaActivity::class.java)
             startActivity(intent)
         }
 
@@ -54,6 +52,5 @@ class TemaPreguntaVideoActivity : AppCompatActivity() {
 
         // starting the video
         simpleVideoView!!.start()
-
     }
 }

@@ -21,6 +21,40 @@ class TemasPreguntasActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        peliseriesimagenbutton.setOnClickListener {
+            var intent: Intent = Intent(this, TemaPreguntaVideoPSActivity::class.java)
+            startActivity(intent)
+        }
+
+        deportesimagenbutton.setOnClickListener {
+            var intent: Intent = Intent(this, TemaPreguntaVideoDeportesActivity::class.java)
+            startActivity(intent)
+        }
+
+        musicaimagenbutton.setOnClickListener {
+            var intent: Intent = Intent(this, TemaPreguntaVideoMusicaActivity::class.java)
+            startActivity(intent)
+        }
+
+        gastronomiaimagenbutton.setOnClickListener {
+            var intent: Intent = Intent(this, TemaPreguntaVideoGastronomiaActivity::class.java)
+            startActivity(intent)
+        }
+
+        historiaimagenbutton.setOnClickListener {
+            var intent: Intent = Intent(this, TemaPreguntaVideoHistoriaActivity::class.java)
+            startActivity(intent)
+        }
+
+        modaimagenbutton.setOnClickListener {
+            var intent: Intent = Intent(this, TemaPreguntaVideoModaActivity::class.java)
+            startActivity(intent)
+        }
+
+        tradicionesimagenbutton.setOnClickListener {
+            var intent: Intent = Intent(this, TemaPreguntaVideoTradicionesActivity::class.java)
+            startActivity(intent)
+        }
 
 
     }

@@ -7,12 +7,12 @@ import android.os.Bundle
 import android.view.View
 import android.view.WindowManager
 import android.widget.MediaController
-import android.widget.Toast
 import android.widget.VideoView
 import kotlinx.android.synthetic.main.activity_tema_pregunta_video.*
-import kotlinx.android.synthetic.main.activity_temas_preguntas.*
+import kotlinx.android.synthetic.main.activity_tema_pregunta_video_deportes.*
 
-class TemaPreguntaVideoActivity : AppCompatActivity() {
+class TemaPreguntaVideoDeportesActivity : AppCompatActivity() {
+
     // declaring a null variable for VideoView
     var simpleVideoView: VideoView? = null
     // declaring a null variable for MediaController
@@ -22,16 +22,15 @@ class TemaPreguntaVideoActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_tema_pregunta_video)
-
+        setContentView(R.layout.activity_tema_pregunta_video_deportes)
 
         getSupportActionBar()?.hide();
         getActionBar()?.hide();
         //getWindow().addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN);
         getWindow().clearFlags(WindowManager.LayoutParams.FLAG_FORCE_NOT_FULLSCREEN);
 
-        buttontextopregunta.setOnClickListener {
-            var intent: Intent = Intent(this, TemaPreguntaLecturaActivity::class.java)
+        buttontextopreguntadeporte.setOnClickListener {
+            var intent: Intent = Intent(this, TemaPreguntaLecturaDeportesActivity::class.java)
             startActivity(intent)
         }
 

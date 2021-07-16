@@ -11,7 +11,21 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Lexi">
-        <activity android:name=".TemaPreguntaLecturaActivity"></activity>
+        <activity android:name=".TemaPreguntaVideoTradicionesActivity"></activity>
+        <activity android:name=".TemaPreguntaLecturaTradicionesActivity" />
+        <activity android:name=".TemaPreguntaVideoModaActivity" />
+        <activity android:name=".TemaPreguntaLecturaModaActivity" />
+        <activity android:name=".TemaPreguntaVideoHistoriaActivity" />
+        <activity android:name=".TemaPreguntaLecturaHistoriaActivity" />
+        <activity android:name=".TemaPreguntaVideoGastronomiaActivity" />
+        <activity android:name=".TemaPreguntaLecturaGastronomiaActivity" />
+        <activity android:name=".TemaPreguntaVideoMusicaActivity" />
+        <activity android:name=".TemaPreguntaLecturaMusicaActivity" />
+        <activity android:name=".TemaPreguntaVideoDeportesActivity" />
+        <activity android:name=".TemaPreguntaLecturaDeportesActivity" />
+        <activity android:name=".TemaPreguntaVideoPSActivity" />
+        <activity android:name=".TemaPreguntaLecturaPSActivity" />
+        <activity android:name=".TemaPreguntaLecturaActivity" />
         <activity android:name=".TemaPreguntaVideoActivity" />
         <activity android:name=".TemasPreguntasActivity" />
         <activity

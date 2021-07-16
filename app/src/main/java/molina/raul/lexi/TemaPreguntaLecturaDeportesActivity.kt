@@ -4,10 +4,10 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.WindowManager
 
-class TemaPreguntaLecturaActivity : AppCompatActivity() {
+class TemaPreguntaLecturaDeportesActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_tema_pregunta_lectura)
+        setContentView(R.layout.activity_tema_pregunta_lectura_deportes)
 
         getSupportActionBar()?.hide();
         getActionBar()?.hide();
