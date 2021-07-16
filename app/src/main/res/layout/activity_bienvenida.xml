@@ -19,12 +19,14 @@
         android:layout_height="65dp">
 
         <ImageView
+            android:id="@+id/imageView2"
             android:layout_width="wrap_content"
             android:layout_height="53dp"
             android:layout_gravity="left"
             android:layout_marginTop="15dp"
-            app:srcCompat="?attr/actionModeCloseDrawable"
-            android:id="@+id/imageView2" android:backgroundTint="@color/azul_button" android:layout_weight="1"/>
+            android:layout_weight="1"
+            android:backgroundTint="@color/azul_button"
+            app:srcCompat="?attr/actionModeCloseDrawable" />
         <TextView
             android:text="@string/bienvenido"
             android:layout_width="wrap_content"

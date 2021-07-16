@@ -84,12 +84,11 @@
 
 
         <ImageButton
-            android:id="@+id/imageButton"
-            android:layout_width="180dp"
-            android:layout_height="64dp"
+            android:id="@+id/imageButtonRedes"
+            android:layout_width="208dp"
+            android:layout_height="54dp"
             android:layout_marginTop="30dp"
-            android:background="@color/white"
-            app:srcCompat="@drawable/redes" />
+            android:background="@drawable/redes" />
         <TextView
             android:text="@string/conectateCon"
             android:layout_width="264dp"

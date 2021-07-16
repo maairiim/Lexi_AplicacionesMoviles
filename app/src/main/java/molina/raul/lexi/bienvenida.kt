@@ -1,11 +1,8 @@
 package molina.raul.lexi
 
 import android.content.Context
-import android.media.Image
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.os.Parcel
-import android.os.Parcelable
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -64,7 +61,7 @@ class bienvenida : AppCompatActivity() {
         override fun getView(position: Int, convertView: View?, parent: ViewGroup?): View {
             var nivel = niveles[position];
             var inflador = LayoutInflater.from(contexto);
-            var vista = inflador.inflate(R.layout.fragmento_nivel,null);
+            var vista = inflador.inflate(R.layout.nivel_view,null);
 
             var imagen = vista.findViewById(R.id.iv_imagenNivel) as ImageView;
             var nombre = vista.findViewById(R.id.tv_tituloNivel) as TextView;
