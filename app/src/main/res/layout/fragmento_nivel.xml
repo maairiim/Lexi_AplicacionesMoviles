@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_marginTop="5dp"
+    android:gravity="center_horizontal"
+    android:layout_height="130dp">
+    <ImageView
+        android:id="@+id/iv_imagenNivel"
+        android:layout_width="150dp"
+        android:layout_height="110dp"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/gradiantb3"
+        android:scaleType="centerInside"
+        android:src="@drawable/basico" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/tv_tituloNivel"
+            android:layout_width="199dp"
+            android:layout_height="77dp"
+            android:layout_marginLeft="10dp"
+            android:text="@string/n1_basico"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/tv_avance1"
+                android:layout_width="70dp"
+                android:layout_height="18dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/button_gradiant_horizontal_round_corner1"
+                android:scaleType="centerInside" />
+            <ImageView
+                android:id="@+id/tv_avance2"
+                android:layout_width="70dp"
+                android:layout_height="18dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/button_gradiant_horizontal_round_corner1"
+                android:scaleType="centerInside" />
+            <ImageView
+                android:id="@+id/tv_avance3"
+                android:layout_width="70dp"
+                android:layout_height="18dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/button_gradiant_horizontal_round_corner1"
+                android:scaleType="centerInside" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

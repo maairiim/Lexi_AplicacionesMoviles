@@ -49,5 +49,29 @@
     <string name="textomod">The inventor of jeans is Oscar Levi Strauss. This German-born businessman emigrated to the United States in 1847, specifically to New York City, and in 1853, he moved to San Francisco. There he opened a haberdashery, which soon became Levis Strauss &amp; Co, the first company to manufacture jeans. Levi Strauss died at the age of 73 and his nephews took over the jeans manufacturing business until the present day, under the famous Levi\'s brand. The first jeans or jeans in history were rough pants, so stiff that they stood upright on the floor. But they had a virtue, they were very resistant and had many pockets, not a trivial matter, since the people for whom they were intended needed to carry an infinite number of small tools and ore samples. The miners began to acquire them, and soon Levi Strauss began to run out of them, no matter how many he made, they were taken out of his hands.</string>
     <string name="textotra">Oktoberfest has been celebrated between September and October in the Bavarian city of Munich since 1810. It is the largest popular festival in Germany and one of the largest in the world, with average annual visits exceeding six million visitors.1 It lasts 16 to 18 days, starting on the first Saturday after September 15. It is held on the field known as Theresienwiese ("Therese Meadow"), in the immediate vicinity of the center of Munich, near the Central Station (Hauptbahnhof). The first Beer Festival was held from October 12 to October 17, 1810 to celebrate the marriage of Prince Ludwig I of Bavaria to Princess Therese of Saxony-Hildburghausen. The celebration consisted of a horse race. The beer festival has taken place ever since on the \'Theresienwiese\' (also known simply as Wiesn), an open field right next to the Munich city wall. The well-known modern beer festival has a short tradition compared to other festivals or folk festivals and shooting organizations (Schützenvereine).</string>
 
+    <!--Strings Miriam -->
+    <string name="correo_electronico">Correo electronico</string>
+    <string name="contrasena">Contrasena</string>
+    <string name="conf_contrasena">Confirmar contrasena</string>
+    <string name="registrar">Registrar</string>
+    <string name="introduccion">Introduccion</string>
+    <string name="bienvenido">Bienvenido</string>
+    <string name="iniciarSesion">Iniciar Sesion</string>
+    <string name="conectateCon">Conectate con</string>
+    <string name="enviar">Enviar</string>
+
+    <string name="crear_cuenta">Crear cuenta</string>
+    <string name="titulo_olvidasteContrasena">Olvidaste tu contrasena?</string>
+    <string name="contenido_olvidasteContrasena">Se enviara un mensaje al correo electronico
+        de tu perfil. Haz click en el mensaje y escribre una contrasena nueva en la pagina que se abra
+    </string>
+    <string name="n1_basico">Nivel 1 Basico</string>
+    <string name="n2_frases">Nivel 2 Frases</string>
+    <string name="n3_ocupacion">Nivel 3 Ocupacion</string>
+
+    <string name="basico">Basico</string>
+    <string name="intermedio">Intermedio</string>
+    <string name="avanzado">Avanzado</string>
+
 
 </resources>
