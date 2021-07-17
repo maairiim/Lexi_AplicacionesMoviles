@@ -11,7 +11,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Lexi">
-        <activity android:name=".TemaPreguntaVideoTradicionesActivity"></activity>
+        <activity android:name=".RestablecerContrasena"></activity>
+        <activity android:name=".Registro" />
+        <activity android:name=".IntroduccionActivity" />
+        <activity android:name=".Log_in" />
+        <activity android:name=".TemaPreguntaVideoTradicionesActivity" />
         <activity android:name=".TemaPreguntaLecturaTradicionesActivity" />
         <activity android:name=".TemaPreguntaVideoModaActivity" />
         <activity android:name=".TemaPreguntaLecturaModaActivity" />
