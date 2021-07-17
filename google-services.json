@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1087015580033",
+    "project_id": "lexi-1626423620861",
+    "storage_bucket": "lexi-1626423620861.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1087015580033:android:7b82d191b48a128fd57880",
+        "android_client_info": {
+          "package_name": "molina.raul.lexi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1087015580033-9amfaef0oh2njuh1cvs4pj1s8gkcn4ja.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "molina.raul.lexi",
+            "certificate_hash": "babdc7f4f3144e447ca72feffb0184f784df03ff"
+          }
+        },
+        {
+          "client_id": "1087015580033-sf3uqs82kseisrltgaqecdlrad427ksh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZcO9AYAEWmGlo26H0VtEK4ox_VpZPdIo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1087015580033-sf3uqs82kseisrltgaqecdlrad427ksh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
